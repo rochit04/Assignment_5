@@ -1,0 +1,6 @@
+list=list(range(1,11))
+print('Original list : ',list)
+extract=(list[0:5])
+print('Extracted first five elements:',extract)
+rev=(extract[::-1])
+print('Reversed extracted elements:',rev)
